@@ -1,0 +1,27 @@
+{
+  "name": "is-chinese-holiday",
+  "version": "0.1.0",
+  "description": "is chinese holiday",
+  "keywords": [
+    "chinese",
+    "holiday"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": {
+    "name": "zenxds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenxds/is-cn-holiday.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
+}
