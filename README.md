@@ -5,5 +5,8 @@
 ## use
 
 ```
-const isChineseHoliday = require('is-')
+const isChineseHoliday = require('is-chinese-holiday')
+
+// => true
+isChineseHoliday('2019-01-01')
 ```
