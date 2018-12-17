@@ -1,6 +1,6 @@
 {
   "name": "is-chinese-holiday",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "is chinese holiday",
   "keywords": [
     "chinese",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zenxds/is-cn-holiday.git"
+    "url": "https://github.com/zenxds/is-chinese-holiday.git"
   },
   "license": "MIT",
   "devDependencies": {
