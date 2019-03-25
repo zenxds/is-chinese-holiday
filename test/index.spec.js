@@ -17,6 +17,16 @@ describe('isChineseHoliday', () => {
 
     expect(isChineseHoliday('2019-06-07')).toBeTruthy()
     expect(isChineseHoliday('2019-09-13')).toBeTruthy()
+
+    expect(isChineseHoliday('2019-09-13')).toBeTruthy()
+
+    expect(isChineseHoliday('2019-04-05')).toBeTruthy()
+    expect(isChineseHoliday('2019-04-28')).toBeFalsy()
+    expect(isChineseHoliday('2019-05-01')).toBeTruthy()
+    expect(isChineseHoliday('2019-05-02')).toBeTruthy()
+    expect(isChineseHoliday('2019-05-03')).toBeTruthy()
+    expect(isChineseHoliday('2019-05-04')).toBeTruthy()
+    expect(isChineseHoliday('2019-05-05')).toBeFalsy()
   })
 
 })
